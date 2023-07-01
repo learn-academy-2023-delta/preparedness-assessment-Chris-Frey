@@ -1,0 +1,77 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+* {
+  /* border: 1px solid red; */
+  align-content: center;
+  align-self: center;
+  text-decoration: none;
+}
+
+body {
+  background-image: url("./assets/background-image.jpeg");
+}
+
+.mode {
+  background-color: white;
+}
+.title {
+  color: white;
+  font-size: 50px;
+}
+
+.labelText {
+  color: white;
+  font-size: 35px;
+}
+
+.formData {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputText {
+  font-size: 18px;
+  width: 50dvw;
+  padding: 6px 12px;
+  margin-bottom: 20PX;
+}
+
+.buttons {
+  color: white;
+  display: flex;
+  border-radius: 5px;
+  border: none;
+}
+
+#reset {
+  justify-content: center;
+  width: 75px;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #0dcaf0;
+}
+
+#clickMe {
+  width: 75px;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #0dcaf0;
+}
+
+.MainModal {
+  background-color: white;
+
+}
+
+.modalTitle {
+  font-size: 16px;
+
+}
+
+ModalBody {
+
+}
